@@ -1,0 +1,29 @@
+.principal{
+    display: flex;
+    padding-top: 8em;  
+    justify-content: center;
+    
+    
+}
+.subtitulo__texto{
+    color: var(--vinho);
+    font-weight: 600;
+    padding: 0 0 2em 0;
+    text-align: center;   
+    
+}
+.principal__titulo{
+    font-size: 48px;
+    font-weight: 600;
+    padding: 0 0 1em 0;
+    text-align: center;
+ }
+ .principal__texto{
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cinza-segunda);
+    flex-wrap: wrap;
+    justify-content: center;
+       
+ }

@@ -1,0 +1,53 @@
+.footer{
+    display: flex;
+    background-color: #F9FAFB;
+    margin: 3em 0 0 ;
+    justify-content: center;
+    padding: 2em;
+}
+button {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    background: none;
+    color: var(--text-color);
+    font-size: 0.9rem;
+
+  }
+  .footer__titulo{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--preto);
+    padding: 0.5em;
+
+  }
+  .footer__texto{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza-segunda);
+    padding: 0 0 1em;
+    text-align: center;
+
+  }
+  .botão{
+    text-align: center;
+  }
+.botão__pesquisa{
+   padding: 0.7em 4em ;
+   border: 1px solid #D0D5DD;
+   border-radius: 10px;
+   
+}
+.botão__pesquisa::placeholder{
+    text-align: center;
+}
+
+  .rodapé{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza-segunda);
+    text-align: center;
+    padding: 1.5em;
+  }

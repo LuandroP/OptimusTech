@@ -1,0 +1,40 @@
+.projetos{
+    display: flex;
+    margin: 6em 20em;
+    
+}
+.projetos__grupo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 0.5em;
+    width: 100%;
+
+}
+.projetos__titulo{
+    color: var(--vinho);
+    font-size:60px ;
+    
+    font-weight: 600;
+
+    
+
+}
+.projetos__subtitulo{
+    font-weight: 500;
+    font-size: 18px;
+    margin: 1em 0 ;
+    
+
+}
+.projetos__texto{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza-segunda);
+    
+    padding-right: 2em;
+    
+    
+    
+    
+}

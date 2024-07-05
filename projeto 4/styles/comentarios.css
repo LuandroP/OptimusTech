@@ -1,0 +1,36 @@
+.comentarios{
+    border: 1px solid fff9f9;
+    background-color: #fff9f9;
+    margin:2.5em 21.5em 0;
+    border-radius: 5px ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.comentarios__texto{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vinho);
+    padding: 2em 0 1em;
+
+    
+}
+.comentarios__titulo{
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--preto);
+    padding: 0 0 0.5em;    
+}
+.comentarios__nome{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--preto);
+    padding: 0.5em 0 ;
+}
+.comentarios__profissão{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza-segunda);
+    padding: 0 0 4em;
+}

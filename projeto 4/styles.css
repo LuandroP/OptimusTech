@@ -1,0 +1,68 @@
+@import url(styles/projeto.css);
+@import url("styles/principal.css");
+@import url(styles/vagas.css);
+@import url(styles/design.css);
+@import url(styles/comentarios.css);
+@import url(styles/footer.css);
+:root {
+    --cinza-primeiro:#3A404E;
+    --cinza-segunda:#667085;  
+    --fonte-principal:"Inter";
+    --branco:#ffff;
+    --vinho:#8E2424;
+    --preto:#101828
+
+
+  }
+  
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    justify-content: space-around;
+  }
+  .header{
+    display: flex;
+    
+    
+  }
+  .links a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin-right: 2rem;
+    
+  }
+  .header__titulo{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 1em;
+    
+  }
+  button {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    background: none;
+    color: var(--text-color);
+    font-size: 0.9rem;
+  }
+  
+  button#signUp {
+    background-color: #8E2424;
+    color: #FFF;
+  }
